@@ -1,16 +1,53 @@
-# React + Vite
+# Avon Technologies — Smart Client & Employee Management Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Enterprise internal management portal for **Avon Technologies (India) Pvt. Ltd.**, Hyderabad.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React 19 + Vite
+- Tailwind CSS 4
+- React Router DOM
+- Framer Motion
+- React Icons
 
-## React Compiler
+## Features (Week 1)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Public website: Home, Services, About, Contact
+- Management portal dashboard with mock data
+- Portal sections: Employees, Clients, Projects, Support, Analytics, Settings
+- Responsive design with enterprise SaaS UI
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173)
+
+## Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server |
+| `npm run build` | Production build |
+| `npm run preview` | Preview production build |
+| `npm run lint` | Run ESLint |
+
+## Project Structure
+
+```
+src/
+├── components/   # Reusable UI components
+├── pages/        # Route pages
+├── layouts/      # Public & Dashboard layouts
+├── routes/       # React Router config
+├── data/         # Static mock data
+└── utils/        # Constants & helpers
+```
+
+## Company
+
+**Avon Technologies (India) Pvt. Ltd.**  
+HITEC City, Madhapur, Hyderabad, Telangana 500081
